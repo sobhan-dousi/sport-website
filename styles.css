@@ -11,6 +11,9 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
+  p {
+    font-family: IRANsans;
+  }
   .max-width-wrapper {
     .header-box {
       box-shadow: 2px 2px 2px gray;
@@ -122,9 +125,15 @@ main {
         align-items: center;
         gap: 16px;
         font-size: 18px;
+        h3 {
+          font-family: IRANsans;
+          font-size: 18px;
+          font-weight: bold;
+          white-space: nowrap;
+        }
         .line {
           border-bottom: 1px solid #dbe6f2;
-          width: 562px;
+          width: 100%;
         }
       }
       .menu-bottom {
@@ -152,6 +161,11 @@ main {
             width: 45px;
             height: 45px;
           }
+          h3 {
+            font-family: IRANsans;
+            font-size: 18px;
+            font-weight: bold;
+          }
         }
       }
     }
@@ -172,6 +186,11 @@ main {
           align-items: center;
           gap: 16px;
           color: #94a0ae;
+          h5 {
+            font-family: IRANsans;
+            font-size: 14px;
+            font-weight: bold;
+          }
         }
         .top-div-left h5:nth-child(5) {
           background-color: #ffbd5c;
@@ -184,13 +203,20 @@ main {
           justify-content: center;
         }
         .top-div-center {
-          width: 760px;
+          width: 100%;
+          white-space: nowrap;
           border-bottom: 1px solid #dbe6f2;
         }
         .top-div-right {
           display: flex;
           justify-content: center;
           align-items: center;
+          h2 {
+            font-family: IRANsans;
+            font-size: 20px;
+            font-weight: bold;
+            white-space: nowrap;
+          }
         }
       }
     }
@@ -200,6 +226,16 @@ main {
       align-items: center;
       flex-wrap: wrap;
       margin-top: 54px;
+      h4 {
+        font-family: IRANsans;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      h2 {
+        font-family: IRANsans;
+        font-size: 20px;
+        font-weight: bold;
+      }
 
       .products-poster {
         margin: 8px;
@@ -236,9 +272,13 @@ main {
           .frist-p {
             color: #abb7c4;
             text-decoration: line-through;
+            font-family: IRANsans;
+            font-size: 12px;
           }
           .second-p {
             color: #7e8a97;
+            font-family: IRANsans;
+            font-size: 12px;
           }
         }
         .products-poster-bottom {
@@ -252,6 +292,7 @@ main {
           height: 34px;
           margin-top: 8px;
           font-size: 12px;
+          font-family: IRANsans;
           img {
             display: block;
             width: 12px;
@@ -273,8 +314,9 @@ main {
           width: 35px;
           height: 35px;
         }
-        p {
+        h3 {
           font-size: 18px;
+          font-family: IRANsans;
         }
       }
     }
@@ -290,6 +332,7 @@ main {
       margin-top: 83px;
       box-shadow: 0px 0px 1px gray;
       padding: 19px;
+
       .speciali-sale-frist-div,
       .speciali-sale-second-div,
       .speciali-sale-third-div,
@@ -356,6 +399,8 @@ main {
             font-size: 14px;
             width: 167px;
             height: 42px;
+            font-family: IRANsans;
+            font-size: 14px;
           }
         }
         .nothing {
@@ -389,6 +434,28 @@ main {
             }
           }
         }
+      }
+      h4 {
+        font-family: IRANsans;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      h2 {
+        font-family: IRANsans;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      p {
+        font-family: IRANsans;
+        font-size: 12px;
+      }
+      h1 {
+        font-family: IRANsans;
+        font-size: 22px;
+        font-weight: bold;
+      }
+      .gray-text {
+        color: #7e8a97;
       }
     }
   }

@@ -458,5 +458,68 @@ main {
         color: #7e8a97;
       }
     }
+    .intoduce-sports {
+      width: 100%;
+      height: 424px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-top: 72px;
+      .intoduce-sports-div {
+        width: 648px;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 8px;
+        box-shadow: 0px 0px 1px #eeeeee;
+        background-color: #eeeeee;
+        overflow: hidden;
+        .intoduce-sports-poster {
+          width: 30%;
+          img {
+            display: block;
+            width: 238px;
+            height: 207px;
+          }
+        }
+        .intoduce-sports-right {
+          direction: rtl;
+          width: 70%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          gap: 16px;
+          padding: 29px;
+          .intoduce-sports-text {
+            .name-text {
+              font-family: IRANsans;
+              font-size: 24px;
+              margin-bottom: 16px;
+            }
+            .bottom-text {
+              font-family: IRANsans;
+              font-size: 14px;
+            }
+          }
+          .intoduce-sports-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            background-color: #ffbd5c;
+            width: 72px;
+            height: 34px;
+            border-radius: 4px;
+            img {
+              width: 12px;
+              height: 12px;
+            }
+          }
+        }
+      }
+    }
   }
 }

@@ -100,6 +100,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
   .max-width-wrapper {
     max-width: 1320px;
     .slider {
@@ -603,7 +604,7 @@ main {
         gap: 24px;
         .poster-news-div {
           display: flex;
-          justify-content: center;
+          justify-content: flex-start;
           align-items: center;
           flex-direction: column;
           background-color: #fff;
@@ -618,7 +619,7 @@ main {
           }
         }
         .poster-news-bottom {
-          padding: 24px;
+          padding: 0px 24px;
           .text {
             direction: rtl;
             display: flex;
@@ -664,5 +665,15 @@ main {
         }
       }
     }
+  }
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background: #424242;
+  line-height: 50px;
+  p {
+    text-align: center;
+    color: #efefef;
   }
 }

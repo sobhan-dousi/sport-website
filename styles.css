@@ -100,7 +100,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 72px;
   .max-width-wrapper {
     max-width: 1320px;
     .slider {
@@ -706,12 +706,194 @@ main {
   }
 }
 footer {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 50px;
-  background: #424242;
-  line-height: 50px;
-  p {
-    text-align: center;
-    color: #efefef;
+  height: 466px;
+  background-color: #fff;
+  box-shadow: 0px 0px 1px #94a0ae;
+  .top-footer-div {
+    width: 100%;
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 116px;
+    border-radius: 8px;
+    margin-top: 16.5px;
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 28px;
+      img {
+        display: block;
+        width: 50px;
+        height: 50px;
+      }
+      p {
+        font-family: IRANsans;
+        font-size: 14px;
+      }
+    }
+  }
+  .bottom-footer-div {
+    width: 100%;
+    height: 322px;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    .bottom-frist-footer-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 67px;
+      padding: 64px 111px;
+      .information {
+        width: 364px;
+        height: 163px;
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+        align-items: flex-start;
+        flex-direction: column;
+        .logo-footer-div {
+          img {
+            display: block;
+            width: 45px;
+            height: 31px;
+          }
+          p {
+            font-family: IRANsans;
+            font-size: 12px;
+            color: #7e8a97;
+          }
+        }
+        .footer-text {
+          font-family: IRANsans;
+          font-size: 14px;
+          color: #7e8a97;
+        }
+      }
+      .important-links {
+        width: 235px;
+        height: 194px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .importamt-links-title {
+          display: flex;
+          justify-content: flex-start;
+          p {
+            font-family: IRANsans;
+            font-size: 16px;
+            font-weight: bold;
+            color: #697480;
+          }
+        }
+        .importamt-links-list {
+          display: flex;
+          justify-content: space-between;
+          ol {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 16px;
+            li {
+              list-style: none;
+              font-family: IRANsans;
+              font-size: 12px;
+              color: #697480;
+            }
+          }
+        }
+      }
+      .contact-us {
+        width: 243px;
+        height: 158px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 24px;
+        .contact-us-title {
+          font-family: IRANsans;
+          font-size: 16px;
+          font-weight: bold;
+          color: #414a53;
+        }
+        .contact-us-items {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          gap: 16px;
+          div {
+            display: flex;
+            p {
+              font-family: IRANsans;
+              font-size: 14px;
+              color: #697480;
+            }
+            img {
+              display: block;
+              width: 24px;
+              height: 24px;
+            }
+          }
+        }
+      }
+      .follow-us {
+        width: 174px;
+        height: 164px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 29px;
+        .follow-us-titlte {
+          font-family: IRANsans;
+          font-size: 16px;
+          font-weight: bold;
+          color: #414a53;
+        }
+        .follow-us-social-meadi-logos {
+          display: flex;
+          justify-content: space-between;
+          gap: 6px;
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            background-color: #c2cedb;
+            border-radius: 8px;
+          }
+        }
+        .testimonial {
+          img {
+            display: block;
+            width: 167px;
+            height: 68px;
+          }
+        }
+      }
+    }
+    .bottom-second-footer-div {
+      width: 100%;
+      height: 80px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      line-height: 40px;
+      p {
+        font-family: IRANsans;
+        font-size: 20px;
+        font-weight: bold;
+        color: #697480;
+      }
+    }
   }
 }

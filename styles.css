@@ -15,6 +15,7 @@ header {
     font-family: IRANsans;
   }
   .max-width-wrapper {
+    max-width: 1320px;
     .header-box {
       box-shadow: 2px 2px 2px gray;
       max-width: 1320px;

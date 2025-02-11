@@ -9,12 +9,12 @@ body {
 }
 header {
   width: 100%;
-  display: flex;
-  justify-content: center;
   p {
     font-family: IRANsans;
   }
   .max-width-wrapper {
+    max-width: 1320px;
+    margin: 0px auto;
     .header-box {
       box-shadow: 2px 2px 2px gray;
       max-width: 1320px;
@@ -23,7 +23,6 @@ header {
       background-color: #fff;
       display: flex;
       justify-content: space-between;
-      margin: 0 60px;
       gap: 550px;
       border-radius: 8px;
       .header-left-div {

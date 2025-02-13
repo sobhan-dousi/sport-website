@@ -18,12 +18,13 @@ body {
     justify-content: center;
     gap: 24px;
     .right-div {
-      width: 468px;
+      width: 648px;
       height: auto;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      gap: 24px;
       .right-div-frist {
         display: flex;
         justify-content: center;
@@ -43,14 +44,32 @@ body {
         }
       }
       .form {
+        input[type="text"] {
+          width: 616px;
+          height: 72px;
+          background-color: #fff;
+          box-shadow: 1px 1px 1px gray;
+          border-radius: 4px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          border-color: white;
+          font-family: IRANsans;
+          font-size: 16px;
+          color: #7e8a97;
+        }
+      }
+      .Continue {
+        width: 425px;
+        height: 56px;
       }
     }
-    .left-div {
-      img {
-        display: block;
-        width: 648px;
-        height: 992px;
-      }
+  }
+  .left-div {
+    img {
+      display: block;
+      width: 648px;
+      height: 992px;
     }
   }
 }

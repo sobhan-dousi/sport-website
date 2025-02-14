@@ -62,6 +62,17 @@ body {
       .Continue {
         width: 425px;
         height: 56px;
+        background-color: #ffbd5c;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          text-decoration: none;
+          color: #000;
+          font-family: IRANsans;
+          font-size: 18px;
+        }
       }
     }
   }

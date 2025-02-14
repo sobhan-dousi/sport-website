@@ -133,6 +133,26 @@ body {
           color: #fff;
         }
       }
+      .enter-with-code {
+        width: 432px;
+        height: 56px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffe2b7;
+        gap: 8px;
+        img {
+          display: block;
+          width: 16px;
+          height: 20px;
+        }
+        p {
+          font-family: IRANsans;
+          font-size: 18px;
+          color: #ff9800;
+        }
+      }
     }
   }
   .left-div {

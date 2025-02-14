@@ -91,6 +91,27 @@ body {
           white-space: nowrap;
         }
       }
+      .Gmail {
+        width: 432px;
+        height: 56px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #cf1322;
+        gap: 8px;
+        img {
+          display: block;
+          width: 24px;
+          height: 24px;
+          filter: brightness(200%);
+        }
+        p {
+          font-family: IRANsans;
+          font-size: 18px;
+          color: #fff;
+        }
+      }
     }
   }
   .left-div {

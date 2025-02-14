@@ -48,15 +48,19 @@ body {
           width: 616px;
           height: 72px;
           background-color: #fff;
-          box-shadow: 1px 1px 1px gray;
           border-radius: 4px;
+          border: 2px solid #faad14;
           display: flex;
           justify-content: flex-start;
           align-items: center;
-          border-color: white;
           font-family: IRANsans;
           font-size: 16px;
           color: #7e8a97;
+          padding-right: 24px;
+        }
+        input::placeholder {
+          font-size: 16px;
+          opacity: 0.7;
         }
       }
       .Continue {

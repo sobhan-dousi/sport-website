@@ -164,13 +164,13 @@ body {
           color: #7e8a97;
           font-family: IRANsans;
           font-size: 20px;
-          filter: drop-shadow(1px 0px 1px gray);
+          filter: drop-shadow(1px 0px 1px black);
         }
         .left {
           color: #ffaa2e;
           font-family: IRANsans;
           font-size: 20px;
-          filter: drop-shadow(1px 0px 1px gray);
+          filter: drop-shadow(1px 0px 1px black);
         }
       }
     }

@@ -170,7 +170,7 @@ body {
           color: #ffaa2e;
           font-family: IRANsans;
           font-size: 20px;
-          filter: drop-shadow(1px 0px 1px gray);
+          filter: drop-shadow(1px 0px 1px black);
         }
       }
     }

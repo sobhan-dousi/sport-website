@@ -1,0 +1,381 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  direction: ltr;
+}
+header {
+  width: 100%;
+  p {
+    font-family: IRANsans;
+  }
+  .max-width-wrapper {
+    max-width: 1320px;
+    margin: 0px auto;
+    padding-bottom: 49px;
+    .header-box {
+      box-shadow: 2px 2px 2px gray;
+      max-width: 1320px;
+      width: 100%;
+      height: 71px;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      gap: 550px;
+      border-radius: 8px;
+      .header-left-div {
+        width: 620px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 10px;
+        gap: 10px;
+        .Button img {
+          display: block;
+          width: 40px;
+          height: 40px;
+        }
+        img {
+          display: block;
+          width: 25px;
+          height: 25px;
+        }
+      }
+      .header-right-div {
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left-div {
+          width: 378px;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .frist,
+          .second,
+          .third {
+            display: flex;
+            gap: 8px;
+          }
+          img {
+            display: block;
+            width: 20px;
+            height: 20px;
+          }
+        }
+        .center-div {
+          width: 200px;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 16px;
+
+          img {
+            display: block;
+            width: 20px;
+            height: 20px;
+          }
+        }
+        .right-div {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          margin-right: 20px;
+          img {
+            display: block;
+            width: 45px;
+            height: 33px;
+          }
+        }
+      }
+    }
+  }
+}
+main {
+  .max-width-wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    .products {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+
+      .product {
+        width: 424px;
+        height: 359px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: #fff;
+        box-shadow: 0px 0px 1px #7e8a97;
+        border-radius: 8px;
+        .poster {
+          display: block;
+          width: 427px;
+          height: 177px;
+        }
+        .prographs {
+          direction: rtl;
+          padding: 0px 24px;
+          margin-top: 19.5px;
+          p:nth-child(1) {
+            font-family: IRANsans;
+            font-size: 20px;
+            font-weight: bold;
+            color: #2e353c;
+            margin-bottom: 16px;
+          }
+          p:nth-child(2) {
+            font-family: IRANsans;
+            font-size: 14px;
+            color: #414a53;
+            margin-bottom: 16px;
+          }
+        }
+        .bottom {
+          display: flex;
+          justify-content: space-between;
+          padding: 0px 24px;
+          .more {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            img {
+              display: block;
+              width: 16px;
+              height: 16px;
+            }
+            p {
+              color: #ffbd5c;
+            }
+          }
+          .date {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            img {
+              display: block;
+              width: 20px;
+              height: 20px;
+            }
+            P {
+              color: #7e8a97;
+            }
+          }
+          a {
+            text-decoration: none;
+            p {
+              font-family: IRANsans;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 466px;
+  background-color: #fff;
+  box-shadow: 0px 0px 1px #94a0ae;
+  .max-width-wrapper {
+    max-width: 1320px;
+    margin: auto;
+    .top-footer-div {
+      width: 100%;
+      height: 144px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 116px;
+      border-radius: 8px;
+      margin-top: 16.5px;
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 28px;
+        img {
+          display: block;
+          width: 50px;
+          height: 50px;
+        }
+        p {
+          font-family: IRANsans;
+          font-size: 14px;
+        }
+      }
+    }
+    .bottom-footer-div {
+      width: 100%;
+      height: 322px;
+      direction: rtl;
+      display: flex;
+      flex-direction: column;
+      .bottom-frist-footer-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 67px;
+        padding: 64px 111px;
+        .information {
+          width: 364px;
+          height: 163px;
+          display: flex;
+          justify-content: space-between;
+          gap: 18px;
+          align-items: flex-start;
+          flex-direction: column;
+          .logo-footer-div {
+            img {
+              display: block;
+              width: 45px;
+              height: 31px;
+            }
+            p {
+              font-family: IRANsans;
+              font-size: 12px;
+              color: #7e8a97;
+            }
+          }
+          .footer-text {
+            font-family: IRANsans;
+            font-size: 14px;
+            color: #7e8a97;
+          }
+        }
+        .important-links {
+          width: 235px;
+          height: 194px;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          .importamt-links-title {
+            display: flex;
+            justify-content: flex-start;
+            p {
+              font-family: IRANsans;
+              font-size: 16px;
+              font-weight: bold;
+              color: #697480;
+            }
+          }
+          .importamt-links-list {
+            display: flex;
+            justify-content: space-between;
+            ol {
+              display: flex;
+              justify-content: space-between;
+              flex-direction: column;
+              gap: 16px;
+              li {
+                list-style: none;
+                font-family: IRANsans;
+                font-size: 12px;
+                color: #697480;
+              }
+            }
+          }
+        }
+        .contact-us {
+          width: 243px;
+          height: 158px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 24px;
+          .contact-us-title {
+            font-family: IRANsans;
+            font-size: 16px;
+            font-weight: bold;
+            color: #414a53;
+          }
+          .contact-us-items {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 16px;
+            div {
+              display: flex;
+              p {
+                font-family: IRANsans;
+                font-size: 12px;
+                color: #697480;
+              }
+              img {
+                display: block;
+                width: 24px;
+                height: 24px;
+              }
+            }
+          }
+        }
+        .follow-us {
+          width: 174px;
+          height: 164px;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 29px;
+          .follow-us-titlte {
+            font-family: IRANsans;
+            font-size: 16px;
+            font-weight: bold;
+            color: #414a53;
+          }
+          .follow-us-social-meadi-logos {
+            display: flex;
+            justify-content: space-between;
+            gap: 6px;
+            a {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 24px;
+              height: 24px;
+              background-color: #c2cedb;
+              border-radius: 8px;
+            }
+          }
+          .testimonial {
+            img {
+              display: block;
+              width: 167px;
+              height: 68px;
+            }
+          }
+        }
+      }
+      .bottom-second-footer-div {
+        width: 100%;
+        height: 80px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        line-height: 40px;
+        p {
+          font-family: IRANsans;
+          font-size: 20px;
+          font-weight: bold;
+          color: #697480;
+        }
+      }
+    }
+  }
+}

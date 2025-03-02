@@ -304,6 +304,21 @@ main {
           }
         }
       }
+      .products-poster:hover {
+        background-color: #efefef;
+        transition: all 500ms;
+        cursor: pointer;
+      }
+      .products-poster:hover .products-poster-title{
+          font-size: 18px;
+      }
+      .products-poster:hover .products-poster-bottom {
+        background-color: #f49608;
+      }
+      .products-poster:hover .products-poster-image {
+        width: 200px;
+        height: 200px;
+      }
       .products-bottom-div {
         display: flex;
         justify-content: center;
@@ -707,6 +722,24 @@ main {
           color: #7e8a97;
         }
       }
+    }
+    .contact-us-section {
+      width: 100%;
+      height: auto;
+      padding: 30px 0px;
+      margin: 20px 0px;
+      border: 1px solid #636363;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      table, th, tr, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+      }
+      tr:nth-child(even) {
+        background-color: red;
+      }
+      tr:hover {background-color: #D6EEEE;}
     }
   }
 }
